@@ -9,6 +9,11 @@ body {
 }
 
 .container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     /* Skriv selv: brug CSS Flexbox til at placere <h1> og knap-sektionen under hinanden,
        centreret i forhold til hinanden. Denne gang skal elementerne stå i en kolonne, ikke en række -
        husk at flex-direction bestemmer, om elementerne står i en række eller en kolonne. */
@@ -23,8 +28,10 @@ body {
     /* Skriv selv: brug CSS Flexbox til at centrere de fire knapper i denne container.
        Husk fra dag 4: du skal bruge display: flex, samt justify-content og align-items,
        for at centrere knapperne både vandret og lodret i forhold til hinanden. */
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    align-content: space-between; 
 }
 
 button {
